@@ -1,0 +1,210 @@
+/*! normalize.css v1.1.2 | MIT License | git.io/normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+html{font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+html,button,input,select,textarea{font-family:sans-serif}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+h2{font-size:1.5em;margin:.83em 0}
+h3{font-size:1.17em;margin:1em 0}
+h4{font-size:1em;margin:1.33em 0}
+h5{font-size:.83em;margin:1.67em 0}
+h6{font-size:.67em;margin:2.33em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+blockquote{margin:1em 40px}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+p,pre{margin:1em 0}
+code,kbd,pre,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}
+pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+q{quotes:none}q:before,q:after{content:'';content:none}
+small{font-size:80%}
+dl,menu,ol,ul{margin:1em 0}
+dd{margin:0 0 0 40px}
+menu,ol,ul{padding:0 0 0 40px}
+nav ul,nav ol{list-style:none;list-style-image:none}
+img{border:0;-ms-interpolation-mode:bicubic}
+figure{margin:0}
+table{border-collapse:collapse;border-spacing:0}
+
+/* ==========================================================================
+   BASE
+   ========================================================================== */
+
+html{ color: #f5f5f5;    min-width:200px;}
+
+body {
+    font: 18px/26px 'Pathway Gothic One', Helvetica, Helvetica Neue, Arial;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    margin:0;
+}
+
+/* ===== body>header =======================================================
+    MOBILE
+   ========================================================================== */
+
+header>div {
+    background-color: #f5f5f5;
+    background-image: url("../img/garabateando465x201.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+
+/* ===== body>aside.rrss ==================================================
+    MOBILE
+   ========================================================================= */
+
+aside ul {
+    list-style:none;
+    list-style-image:none;
+    padding:0;
+    margin:0;
+}
+
+/* ===== body>header>nav ==================================================
+    MOBILE
+   ========================================================================= */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    background: #66cca8;
+}
+nav a {
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #66cca8;
+    border-bottom: 4px solid #fff;
+    text-transform: uppercase;
+    border-right: 1% solid #fff;
+}
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+nav a:hover {    text-decoration: underline;}
+
+/* ===== body>article (sections) ===========================================
+    MOBILE
+   ========================================================================= */
+
+article {
+    padding: 30px 0 0 0;
+    color: #000;
+}
+section {
+    padding: 1em 0;
+    overflow:hidden;
+    }
+section>h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    color:#fff;
+    width:100%;
+    max-width: 10em;
+    margin: 0 auto;
+    background-color: #66cca8;
+    padding: .3ex .2ex;
+}
+section>h1>a {
+    display:block;
+    border:2px solid #fff;
+}
+section p{    font-size: 75%;}
+
+/* ===== body>article (about garabateando) =================================
+    MOBILE
+   ========================================================================= */
+
+h2>.supertitle {
+    font-size: 250%;
+    vertical-align: text-bottom;
+}
+.grey {    background-color: #f5f5f5;}
+section.about h2 {    font-size: 1em;}
+section.about ul {
+    list-style:none;
+    list-style-image:none;
+    padding:0;
+}
+
+/* ===== body>article (portfolio) ==========================================
+    MOBILE 2col
+   ========================================================================= */
+
+section.portfolio ul {
+    list-style:none;
+    list-style-image:none;
+    padding:0;
+}
+
+/* ===== body>article (servicios) ==========================================
+    MOBILE
+   ========================================================================= */
+
+section.servicios dd {
+    margin: 0;
+    color: #66cca8;
+    font-size: 75%;
+}
+
+/* ===== body>article (contacto) ===========================================
+    MOBILE
+   ========================================================================= */
+
+section.contacto {
+    background-color: #66cca8;
+	color: #fff;
+}
+
+section.contacto>h1{
+    color:#66cca8;
+    background-color: #fff;
+}
+
+section.contacto>h1>a {
+    border:2px solid #66cca8;
+}
+
+section.contacto>p.dir {
+	font-size:60%;
+	line-height:1.2;
+}
+
+/* ===== body>footer ===========================================
+    MOBILE
+   ========================================================================= */
+
+body>footer {    background-color: #66cca8;}
+body>footer>p {
+    margin: 0;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:50%;
+	color:#999;
+	line-height:1;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Clases Reutilizables
+   ========================================================================== */
+
+.title { position: relative; top:-5555px;}
+.subtitle {color: #66cca8;}
+.supertitle {font-size: 175%;}

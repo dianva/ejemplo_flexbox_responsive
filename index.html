@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Garabateando, estudio creativo</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width" />
+        <link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" href="css/main.css" />
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+                display: flex;
+                flex-direction: column;
+            }
+        .about{
+            display: flex;
+            flex-direction: column;
+        }
+        .about>div{
+            background-color: #f5f5f5;
+        }
+        
+        .about>div>ul{
+           display:flex; 
+           justify-content: center;
+           
+        }
+        .about>div>ul>li{
+            flex: 1 1 0;
+            display: flex;
+
+        }
+        .about>div>ul>li>img{
+            width: 100%;
+            height: 100%;
+        }
+        .portfolio>ul{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+          div>aside>ul{
+            display: flex;
+            justify-content: center;
+                        
+        }
+        
+        section.servicios{
+            background-color: #f5f5f5;
+            
+        }
+        section.servicios>div>dl{
+        background: white;
+        margin: 1em 5em;
+       }
+       /*tablet*/
+       @media(min-width:481px) and (max-width:1139px){
+        div>aside img{
+            width: 5vw;
+            
+        }
+        div>aside>ul>li{
+            margin: 0 5%;
+        }
+        section.portfolio ul li img{
+           width: 30vw;
+           margin:0;
+           padding: 0;
+       }
+
+       }
+        /*movil*/
+        @media(max-width:480px){
+           
+         div>aside>ul>li{
+            margin: 0 4%;
+           
+        }
+        div>aside img{
+            width: 10vw;
+        }
+       section.portfolio ul li img{
+           width: 11em;
+           margin:0;
+           padding: 0;
+       }
+      
+        }
+        /*escritorio*/
+        @media (min-width:1140px){
+          
+          
+        div>aside>ul>li{
+            margin: 0 0.5%;
+           
+        }
+        nav>ul{
+            display: flex;
+        }
+        nav>ul>li{
+            flex:1 1 0;
+        }
+        nav>ul>li>a{
+           border-left: 5px solid white;
+           border-bottom: 0;
+           margin: 1%;
+           
+        }
+        nav>ul>li:first-child>a{
+            border:0;
+        }
+       
+       
+      
+        section.servicios{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            
+        }
+        section.servicios>h1{
+            width: 100%;
+        }
+        section.servicios>div{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%
+        }
+        
+
+    }
+        
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1 class="title">Garabateando</h1>
+                <p class="title">Estudio creativo</p>
+            <aside>
+            <ul>
+                <li class="fb"><a href="https://www.facebook.com/"><img src="./img/facebook.png" alt="Facebook" /></a></li>
+                <li class="tw"><a href="https://twitter.com/"><img src="./img/twitter.png" alt="Twitter" /></a></li>
+                <li class="wp"><a href="http://wordpress.com/"><img src="./img/wordpress.png" alt="WordPress" /></a></li>
+                <li class="be"><a href="http://www.behance.net/"><img src="./img/be.png" alt="Behance" /></a></li>
+                <li class="em"><a href="mailto:dummy@garabateandoestudio.com"><img src="./img/mail.png" alt="eMail" /></a></li>
+            </ul>
+        </aside>
+    </div>
+            
+        <nav>
+                <ul>
+                    <li><a href="#quien">Quiénes somos</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <article>
+            <section class="about">
+                <h1><a name="quien">About Garabateando</a></h1>
+                <p>Somos un <span class="subtitle">estudio creativo</span> independiente. nuestro objetivo es aportar a tu imagen corporativa algo personalizado y diferente. Además diseñamos tu estrategia de marketing y comunicación <span class="subtitle">social media</span></p>
+                <div>
+                    <h2 class="supertitle subtitle">¿Qué hacemos<span class="supertitle">?</span></h2>
+                    <p><span>Diseño gráfico y social media</span></p>
+                    <ul>
+                        <li class="creamos"><img src="./img/creamos306x306.png" alt="Creamos" /></li>
+                        <li class="disenamos"><img src="./img/disenamos306x306.png" alt="Diseñamos" /></li>
+                        <li class="ideamos"><img src="./img/ideamos306x306.png" alt="Ideamos" /></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="portfolio">
+                <h1><a name="portfolio">Portfolio</a></h1>
+                <ul>
+                    <li class="miriam"><img src="./img/miriam262x262.png" alt="Miriam Aguado" /></li>
+                    <li class="bm"><img src="./img/bm262x262.png" alt="B.M. Aniversario" /></li>
+                    <li class="arbitrae"><img src="./img/arbitrae262x262.png" alt="Arbitrae Abogados" /></li>
+                    <li class="javier"><img src="./img/javier262x262.png" alt="Fotografo Javier" /></li>
+                    <li class="jump"><img src="./img/jump262x262.png" alt="Jump in Logotipo" /></li>
+                    <li class="eco"><img src="./img/logoeco262x262.png" alt="Ecología Logotipo" /></li>
+                    <li class="cofradia"><img src="./img/sentencia262x262.png" alt="Sentencia y esperanza" /></li>
+                    <li class="milenio"><img src="./img/milenio262x262.png" alt="Cúpula del milenio" /></li>
+                    <li class="stelmo"><img src="./img/stelmo262x262.png" alt="Fiestas San Telmo" /></li>
+                    <li class="expo"><img src="./img/expo262x262.png" alt="Exposición pintura" /></li>    
+                    <li class="wcofradia"><img src="./img/wcofradia262x262.png" alt="Web Cofradía" /></li>
+                    <li class="gim"><img src="./img/milenio262x262.png" alt="Gimnasio Zeus" /></li>      
+                </ul>
+            </section>
+            <section class="servicios">
+                <h1><a name="servicios">Servicios</a></h1>
+                <div>
+                <dl class="dg">
+                        <dt>Diseño gráfico</dt>
+                        <dd>Carteles</dd>
+                        <dd>Folletos</dd>
+                        <dd>Catálogos</dd>
+                        <dd>Flyers</dd>
+                        <dd>Logos</dd>
+                    </dl>
+                    <dl class="ic">
+                        <dt>Identidad corporativa</dt>
+                        <dd>Tarjetas personales</dd>
+                        <dd>Manual de identidad</dd>
+                        <dd>Branding</dd>
+                    </dl>
+                    <dl class="ol">
+                        <dt>On-line</dt>
+                        <dd>Community manager</dd>
+                        <dd>Diseño web</dd>
+                    </dl>
+                    <dl class="fo">
+                        <dt>Fotografía</dt>
+                        <dd>Retoques fotográficos</dd>
+                        <dd>Sesiones</dd>
+                </dl>
+            </div>
+            </section>
+            <section class="contacto">
+                <h1><a name="contacto">Contacto</a></h1>
+                <p>dummy@garabateandoestudio.com</p>
+                <p>Garabateando Estudio Creativo<br />Murcia</p>
+            </section>
+        </article>
+        <footer>
+            <p>Copyright 2017 Garabateando Estudio Creativo<br />Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
